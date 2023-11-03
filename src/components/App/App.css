@@ -1,0 +1,7 @@
+.burger-app {
+  display: table;
+  width: 100%;
+  max-width: 800px;
+  margin: 10%;
+  padding: 0 0;
+}
