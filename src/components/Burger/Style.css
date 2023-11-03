@@ -1,0 +1,89 @@
+img {
+  width: 40px;
+}
+
+.burgerIngredients {
+  width: 200px;
+  margin: 150px;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+}
+
+.topSide{
+  background-color: #b08d57;
+  height: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.bottomSide {
+  background-color: #b08d57;
+  height: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  transform: rotate(180deg);
+}
+
+.burgerIngredients p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.ingredientsBlock {
+  width: 800px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+}
+
+
+.addBtn,
+.removeBtn{
+  background-color: #5b7790;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.addBtn:hover {
+  background-color: #3e5060;
+}
+
+.removeBtn:hover {
+  background-color: #3e5060;
+}
+
+.Meat {
+  background-color: #8b0000;
+}
+
+.Meat img {
+  max-width: 100%;
+}
+
+.Salad {
+  background-color: #3bb000;
+}
+
+.Salad img {
+  max-width: 100%;
+}
+
+.Cheese {
+  background-color: #ffaa00;
+}
+
+.Cheese img {
+  max-width: 100%;
+}
+
+.Bacon {
+  background-color: #8b3e2d;
+}
+
+.Bacon img {
+  max-width: 100%;
+}
