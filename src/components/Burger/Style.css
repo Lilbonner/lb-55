@@ -4,8 +4,8 @@ img {
 
 .burgerIngredients {
   width: 200px;
-  margin: 150px;
-  padding: 10px;
+  margin-top: 150px;
+  padding: 100px;
   text-align: center;
   display: inline-block;
 }
@@ -34,9 +34,9 @@ img {
   width: 800px;
   display: inline-block;
   vertical-align: top;
-  padding: 10px;
+  padding: 50px;
+  margin-left: 100px;
 }
-
 
 .addBtn,
 .removeBtn{
@@ -56,34 +56,45 @@ img {
   background-color: #3e5060;
 }
 
-.Meat {
-  background-color: #8b0000;
+.meatSide {
+  width: 80%;
+  height: 8%;
+  background: linear-gradient(#7f3608, #702e05);
+  margin: 2% auto;
+  border-radius: 15px;}
+
+.meatSide img {
+  width: 1px}
+
+.saladSide {
+  width: 85%;
+  height: 7%;
+  margin: 2% auto;
+  background: linear-gradient(#228c1d, #91ce50);
+  border-radius: 20px;}
+
+.saladSide img {
+  width: 1px;
 }
 
-.Meat img {
-  max-width: 100%;
+.cheeseSide {
+  width: 90%;
+  height: 4.5%;
+  margin: 2% auto;
+  background: linear-gradient(#f4d004, #d6bb22);
+  border-radius: 20px;}
+
+.cheeseSide img {
+  width: 1px;
 }
 
-.Salad {
-  background-color: #3bb000;
+.baconSide {
+  width: 80%;
+  height: 3%;
+  background: linear-gradient(#bf3813, #c45e38);
+  margin: 2% auto;
 }
 
-.Salad img {
-  max-width: 100%;
-}
-
-.Cheese {
-  background-color: #ffaa00;
-}
-
-.Cheese img {
-  max-width: 100%;
-}
-
-.Bacon {
-  background-color: #8b3e2d;
-}
-
-.Bacon img {
-  max-width: 100%;
+.baconSide img {
+  width: 1px;
 }
