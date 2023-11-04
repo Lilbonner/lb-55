@@ -7,7 +7,7 @@ img {
   padding: 100px;
   text-align: center;
   display: inline-block;
-  border: #1a1a1a solid 1px;
+  margin-left: 500px;
   }
 
 .topSide{
@@ -31,12 +31,13 @@ img {
 }
 
 .ingredientsBlock {
-  background-color: #506327;
+  background-color: #a4a4a4;
   border-radius: 10px;
   width: 800px;
   display: flex;
   padding: 50px;
-  border: olivedrab solid 1px;
+  border: #1b1f19 solid 1px;
+  margin-left: 300px;
 }
 .ingredientsBlock div {
     padding: 20px;
@@ -46,7 +47,7 @@ img {
 
 .addBtn,
 .removeBtn{
-  background-color: #5c905b;
+  background-color: #717070;
   color: white;
   border: none;
   padding: 5px 10px;
@@ -55,11 +56,11 @@ img {
 }
 
 .addBtn:hover {
-  background-color: #3e5060;
+  background-color: #464545;
 }
 
 .removeBtn:hover {
-  background-color: #3e5060;
+  background-color: #464545;
 }
 
 .meatSide {
@@ -104,7 +105,7 @@ img {
 .baconSide img {
   width: 1px;
 }
-
 .totalPrice {
-  background-color: #3e5060;
+  margin-left: 660px;
 }
+
