@@ -3,23 +3,23 @@ img {
 }
 
 .burgerIngredients {
-  width: 200px;
-  margin-top: 150px;
+  width: 300px;
   padding: 100px;
   text-align: center;
   display: inline-block;
-}
+  border: #1a1a1a solid 1px;
+  }
 
 .topSide{
   background-color: #b08d57;
-  height: 20px;
+  height: 25px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
 .bottomSide {
   background-color: #b08d57;
-  height: 20px;
+  height: 25px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   transform: rotate(180deg);
@@ -31,16 +31,22 @@ img {
 }
 
 .ingredientsBlock {
+  background-color: #506327;
+  border-radius: 10px;
   width: 800px;
-  display: inline-block;
-  vertical-align: top;
+  display: flex;
   padding: 50px;
-  margin-left: 100px;
+  border: olivedrab solid 1px;
+}
+.ingredientsBlock div {
+    padding: 20px;
+    align-items: center;
+    align-content: space-between;
 }
 
 .addBtn,
 .removeBtn{
-  background-color: #5b7790;
+  background-color: #5c905b;
   color: white;
   border: none;
   padding: 5px 10px;
@@ -97,4 +103,8 @@ img {
 
 .baconSide img {
   width: 1px;
+}
+
+.totalPrice {
+  background-color: #3e5060;
 }

@@ -47,16 +47,16 @@ const Burger = () => {
 
   return (
     <>
-      <BurgerIngredients ingredients={ingredients} ingredientImages={ingredientImages} />
+      <BurgerIngredients ingredients={ingredients} ingredientImages={ingredientImages}/>
       <IngredientList
         ingredients={ingredients}
         ingredientImages={ingredientImages}
         ingredientPrices={ingredientPrices}
         addRemoveIngredient={addRemoveIngredient}
       />
-      <div className="totalPrice">
-        <p>Total Price: {getTotalPrice()} som</p>
-      </div>
+        <div className="totalPrice">
+            <p>Total Price: {getTotalPrice()} som</p>
+        </div>
     </>
   );
 };
